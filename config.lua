@@ -19,25 +19,6 @@ I am otouto, the plugin-wielding, multipurpose Telegram bot.
 Send /help to get started.
 	]],
 
-	-- http://console.developers.google.com
-	google_api_key = '',
-	-- https://cse.google.com/cse
-	google_cse_key = '',
-	-- http://openweathermap.org/appid
-	owm_api_key = '',
-	-- http://last.fm/api
-	lastfm_api_key = '',
-	-- http://api.biblia.com
-	biblia_api_key = '',
-	-- http://thecatapi.com/docs.html
-	thecatapi_key = '',
-	-- http://api.nasa.gov
-	nasa_api_key = '',
-	-- http://tech.yandex.com/keys/get
-	yandex_key = '',
-	-- http://developer.simsimi.com/signUp
-	simsimi_key = '',
-	simsimi_trial = true,
 
 	errors = { -- Generic error messages used in various plugins.
 		connection = 'Connection error.',
@@ -69,11 +50,11 @@ Send /help to get started.
 		'reddit',
 		'xkcd',
 		'slap',
-		'commit',
+		--'commit',
 		'pun',
 		'currency',
-		'cats',
-		'shout',
+		--'cats',
+		--'shout',
 		'patterns',
 		-- Put new plugins above this line.
 		'help',
